@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(48, 43, 44);
+}
+.main{
+    display: flex;
+    align-content:center;
+    justify-content: space-evenly;
+}
+
+.leftCard, .rightCard{
+    margin-top: 60px;
+    width: 400px;
+    height:600px;
+    background-color: white;
+    text-align: center;
+}
+.leftCard{
+    border-radius: 20px;
+}
+.leftCard:hover{
+     
+    box-shadow: 0 0 10px 5px rgb(0, 238, 255);;
+}
+.leftCard img{
+    width: 400px;
+    height: auto;
+    border-radius:20px 20px 0 0;
+}
+.text{
+    margin-top: 15px;
+    width: auto;
+    height: 256px;
+    
+    
+}
+.text h2{
+    margin-bottom: 10px;
+    color: royalblue;
+    padding: 5px;
+}
+.text button{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: 700;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: rgba(86, 232, 198,0.4);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;    
+}
+.text button:hover{
+    border: 1px solid black;
+    background-color:rgba(86, 232, 198,0.8) ;
+}
+.text p{
+    margin-top: 25px;
+}
+.bottom{
+    background-color: black;
+    width: auto;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+    /* border: 4px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgba(255, 255, 255,0.9);
+}
+.d1,.d2,.d3{
+    width: 130px;
+    height: 95px;
+    background-color: rgba(129, 168, 219,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d1{
+    border-bottom-left-radius: 20px;
+}
+.d3{
+    border-bottom-right-radius: 20px;
+}
+
+/* RIGHT CARD */
+
+.rightCard{
+    text-align: center;
+}
+.rightCard:hover{
+     
+    box-shadow: 0 0 10px 5px rgb(0, 238, 255);;
+}
+.upper{
+   width: auto;
+   height: 220px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.upper img{
+    width: 170px;
+    height: 180px;
+    border-radius: 50%;
+   
+}
+.footer{
+    margin: auto;
+    width: 350px;
+    height: 250px;
+}
+.footer button{
+    color: white;
+    font-weight: 500;
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 40%;
+    margin-top: 25px;
+    background-image: linear-gradient(to right,  rgba(255, 0, 64,1),rgba(255, 0, 64,0.4));
+    cursor: pointer;
+}
+.footer button:hover{
+    background-color:rgba(255, 0, 64,1) ;
+}
+.circles{
+    width: 400px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.c1,.c2,.c3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.c1{
+    background-image: linear-gradient(to right,  rgba(255, 0, 64,1),rgba(255, 0, 64,0.2));
+}
+.c2{
+    background-image: linear-gradient(to right,  rgba(4, 0, 255,1),rgba(4, 0, 255,0.2));
+    
+}
+.c3{
+    background-image: linear-gradient(to right,  rgba(0, 255, 21,1),rgba(0, 255, 21,0.2));
+
+}
